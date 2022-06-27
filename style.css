@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+   
+  }
+  ul{
+    list-style-type: none;
+  }
+  a{
+    text-decoration: none;
+  }
+  .container{
+    width: 1140px;
+    margin: auto;
+  }
+
+  header{
+    background-color: #134464 ;
+  }
+  .header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: white;
+  }
+  .header p{
+    font-family: sans-serif;
+    font-size: 16px;
+     color: white ;
+    width: 185px;
+    padding: 10px 80px 10px 0;
+  }
+  .header marquee{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: white;
+    width: 800px;
+    padding: 20px 20px;
+  }
+  .navitation{
+    display: flex;
+    align-items: center;
+  }
+  .navitation .logo{
+    width: 15%;
+  }
+  .navitation .branch_N p{
+    width: 100%;
+    display: inline-block;
+    border-left: 2px solid gray;
+    margin-right: 60px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #961212;
+    padding-left: 5px;
+  }
+  .navitation nav ul li{
+    display: inline-block;
+    padding: 10px 20px;
+  }
+  .navitation nav ul li a{
+    color: #6F6F6F;
+    font-family: sans-serif;
+    transition: .3s linear;
+  }
+  .navitation nav ul li a:hover{
+    color: #5d8ece;
+  }
+  .navitation .seminar{
+    padding: 25px 30px;
+    background-color: rgb(130, 102, 233);
+    margin-left: 60px;
+  }
+  .navitation .seminar a{
+    color: white;
+    font-family: sans-serif;
+  }
+  .bg_img{
+    border-bottom: 1px solid #999faafb;
+    
+  }
+  .bg_img img{
+    width: 100%;
+    height: 55%;
+    }
+    main .about_ctg{
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        
+      }
+      main .about_ctg .about_img img{
+        width: 555px;
+        
+      }
+      main .about_ctg .about_info{
+        padding: 10px 60px;
+      }
+      main .about_ctg .about_info h1{
+        font-family: sans-serif;
+        color: #f50000;
+        margin: 10px 0;
+      }
+      main .about_ctg .about_info p{
+        font-family: sans-serif;
+        color: #a86f72;
+        margin: 8px 0;
+        line-height: 1.6;
+      }
+      main .upcoming_ss{
+        margin-bottom: 20px;
+      }
+      main .upcoming_ss .ss_heading{
+        padding: 20px 0;
+      }
+      main .upcoming_ss .ss_heading h1{
+        font-family: sans-serif;
+        text-align: center;
+        color: #ff0505;
+        font-weight: 400px;
+        margin: 30px 0;
+      }
+      main .upcoming_ss .ss_table table{
+        width: 100%;
+      }
+      main .upcoming_ss .ss_table table,th,td{
+        border: 1px solid #df0303;
+        border-collapse: collapse;
+        padding: 20px 0px;
+      }
+      main .upcoming_ss .ss_table table tr th{
+        font-family: sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        color: rgb(214, 10, 10);
+        background-color: #39393a;
+      }
+      main .upcoming_ss .ss_table table tr td{
+        font-family: sans-serif;
+        font-size: 16px;
+        text-align: center;
+      }
+      main .upcoming_ss .ss_table table tr td a{
+        color: rgb(211, 51, 51);
+        background-color: #000000;
+        font-family: sans-serif;
+        font-size: 18px;
+        padding: 10px 40px;
+        border-radius: 5px;
+        transition: .3s linear;
+      }
+      main .upcoming_ss .ss_table table tr td a:hover{
+        background-color: #E52C23
+      }
+      main .course{
+        margin: 50px 0;
+        padding: 20px 0;
+      }
+      main .course .course_head{
+        padding: 20px 0;
+      }
+      main .course .course_head h1{
+        font-family: sans-serif;
+        color: #455d7c;
+        margin-bottom: 10px;
+      }
+      main .course .course_head p{
+        font-family: sans-serif;
+        color: #001b3d;
+      }
+      main .course .course_info{
+        padding: 20px 0;
+        margin: 10px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      main .course .course_info .course_1{
+        display: flex;
+        width: 45%;
+        margin: 10px 5px;
+        border: 1px solid #858488;
+      }
+
+
+      main .course .course_info .course_1 .course_left{
+        width: 100%;
+        padding: 10px 2px;
+      }
+      main .course .course_info .course_1 .course_left h1{
+        font-family: sans-serif;
+        font-size: 23px;
+        font-weight: 500;
+        padding: 10px 0;
+      }
+      main .course .course_info .course_1 .course_left p{
+        display: inline-block;
+        font-family: sans-serif;
+        padding: 10px 0;
+        margin: 10px 0;
+        line-height: 1.6;
+      }
+      main .course .course_info .course_1 .course_left a{
+        color: rgb(255, 255, 255);
+        background-color: #000000;
+        padding: 10px 15px;
+        margin: 15px 0;
+        border-radius: 5px;
+        transition: .3s linear;
+      }
+      
+      main .course .course_info .course_1 .course_left a:hover{
+        background-color: #3889f3;
+      }
+      main .course .course_info .course_1 .course_right{
+        width: 45%;
+      }
+      main .course .course_info .course_1 .course_right img{
+        margin-left: 20px;
+      }
+      main .gallery{
+        margin: 30px 0;
+      }
+      main .gallery .gal_info{
+        margin: 20px 0;
+      }
+      main .gallery .gal_info h1{
+        font-family: sans-serif;
+        color: #5B6B80;
+        margin-bottom: 10px;
+      }
+      main .gallery .gal_info p{
+        font-family: sans-serif;
+        color: #5B6B80;
+      }
+      main .gallery .gal_img{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+      }
+      main .gallery .gal_img img{
+        width: 32%;
+        margin-bottom: 30px;
+      }
+      main .contact{
+        margin: 20px 0;
+      }
+      main .contact .con_head{
+        margin: 10px 0;
+      }
+      main .contact .con_head h1{
+        font-family: sans-serif;
+        color: #5B6B80;
+        margin-bottom: 10px;
+      }
+      main .contact .con_head p{
+        font-family: sans-serif;
+        color: #5B6B80;
+      }
+      main .contact .con_form form{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 20px 0;
+      }
+      main .contact .con_form form input{
+        width: 49%;
+        padding: 10px;
+        margin: 10px 5px;
+      }
+      main .contact .con_form .con_btn{
+        padding: 20px 0;
+        text-align: center;
+      }
+      main .contact .con_form .con_btn a{
+        color: white;
+        background-color: #49596D;
+        padding: 12px 30px;
+        border-radius: 20px;
+        transition: .3s linear;
+      }
+      main .contact .con_form .con_btn a:hover{
+        background-color: #160201;
+      }
+      footer .foot_bar{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 20px 0;
+        margin-top: 50px;
+      }
+      footer .foot_bar .foot_img{
+        width: 30%;
+      }
+      footer .foot_bar .foot_img img{
+        margin-left: 25%;
+      }
+      footer .foot_bar .foot_img h1{
+        font-family: sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 20px 0;
+      }
+      footer .foot_bar .foot_add{
+        width: 30%;
+      }
+      footer .foot_bar .foot_add h1{
+        font-family: sans-serif;
+        font-size: 28px;
+        font-weight: 500;
+        color: #133869;
+        border-bottom: 2px solid #b1b2b3;
+      }
+      footer .foot_bar .foot_add p{
+        font-family: sans-serif;
+        font-size: 16px;
+        padding: 20px 0;
+        line-height: 1.5;
+      }
+      footer .foot_bar .foot_con{
+        width: 30%;
+      }
+      footer .foot_bar .foot_con h1{
+        font-family: sans-serif;
+        font-size: 28px;
+        font-weight: 500;
+        color: #2d3e55;
+        border-bottom: 2px solid #1e1e1f;
+      }
+      footer .foot_bar .foot_con p{
+        font-family: sans-serif;
+        font-size: 16px;
+        padding: 20px 0;
+        line-height: 1.5;
+      }
+      footer .foot_end{
+        text-align: center;
+      }
+      footer .foot_end p{
+        font-family: sans-serif;
+        font-size: 18px;
+        padding: 20px 0
+      }
+      
